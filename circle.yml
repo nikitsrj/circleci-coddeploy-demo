@@ -10,4 +10,5 @@ deployment:
           s3_location: 
             bucket: circle-ci-shaadi 
             key_pattern: app-{SHORT_COMMIT}-{BUILD_NUM}.zip 
-        Deployment_group: Circleci-shaadi-demo_GN 
+        deployment_group: Circleci-shaadi-demo_GN 
+        deployment_config: CodeDeployDefault.AllAtOnce
