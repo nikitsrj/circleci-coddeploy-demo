@@ -1,5 +1,5 @@
 deployment:   
-   staging:   
+   production:   
     branch: master 
     codedeploy:  
       Circleci-shaadi-demo_AN: 
@@ -11,4 +11,3 @@ deployment:
             bucket: circle-ci-shaadi 
             key_pattern: app-{SHORT_COMMIT}-{BUILD_NUM}.zip 
         Deployment_group: Circleci-shaadi-demo_GN 
-        Deployment_config: CodeDeployDefault.AllAtOnce 
